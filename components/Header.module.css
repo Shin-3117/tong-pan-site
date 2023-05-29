@@ -1,0 +1,10 @@
+.header{
+    display : flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: bisque;
+}
+.title{
+    padding : 5px;
+    background-color : red;
+}

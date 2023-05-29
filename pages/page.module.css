@@ -1,0 +1,11 @@
+.imgContainer{
+  display : flex;
+  justify-content: space-around;
+  padding: 5px;
+  background-color: bisque;
+}
+.imgColum{
+  display : flex;
+  padding : 5px;
+  background-color : red;
+}
