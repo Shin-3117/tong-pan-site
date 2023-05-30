@@ -2,9 +2,12 @@
     display : flex;
     justify-content: space-between;
     padding: 5px;
-    background-color: bisque;
+    background-color: #99A98F;
 }
 .title{
     padding : 5px;
-    background-color : red;
+    background-color : #D6E8DB;
+}
+.icon{
+    background-color: #FFF8DE;
 }

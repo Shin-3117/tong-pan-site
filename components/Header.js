@@ -7,7 +7,7 @@ export default function Header (){
         <main className={styles.header}>
             <div className={styles.title}>사이트이름</div>
             <SearchInput/>
-            <div >대충 뭔가 들어감</div>
+            <div className={styles.icon}>대충 뭔가 들어감</div>
         </main>
         </>
     )

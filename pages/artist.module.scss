@@ -1,0 +1,34 @@
+.table{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tableHead{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 6fr 3fr 1fr;
+}
+
+.tableBody{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 6fr 3fr 1fr;
+}
+
+.inputTitle{
+    padding: 5px;
+    border: 1px solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.inputContext{
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    width: 100%;
+}
