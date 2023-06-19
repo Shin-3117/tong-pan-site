@@ -6,10 +6,17 @@ export default function Artist(){
     return(
         <>
         <h1 className={styles.h1}>통판 등록</h1>
-        
-        <div>부스 사진</div>
-        <div>부스 이름</div>
-        <input></input>
+    <div className={styles.boose}>
+        <div className={styles.booseHead}>
+            <div>부스 이름</div>
+            <input></input>
+        </div>
+        <div className={styles.booseBody}>
+            <div>부스 사진</div>
+            <Image src={inputPng} className={styles.booseImg}/>
+        </div>
+    </div>
+
     <div className={styles.goods}>
         <div className={styles.goodsImg}> 
             <div className={styles.inputTitle}>상품 사진</div>

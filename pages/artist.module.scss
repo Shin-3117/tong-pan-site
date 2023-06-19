@@ -2,6 +2,25 @@
     font-size: x-large;
     margin: 12;
 }
+.boose{
+    display: flex;
+    margin: 8px;
+    flex-direction: column;
+    >.booseHead{
+        display: flex;
+        padding: 8px;
+    }
+    >.booseBody{
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+
+        >.booseImg{
+            width: auto;
+            max-height: 200px;
+        }
+    }
+}
 .goods{
     display: flex;
 
