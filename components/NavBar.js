@@ -8,7 +8,7 @@ export default function NavBar () {
                 <div>통판보기</div>
             </Link>
             <Link href="/artist">
-                <div>통판올리기</div>
+                <div>통판등록</div>
             </Link>
             <div>테그123</div>
             <div>뭐올리지</div>
