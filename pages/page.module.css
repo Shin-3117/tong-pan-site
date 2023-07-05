@@ -2,10 +2,20 @@
   display : flex;
   justify-content: space-around;
   padding: 5px;
-  background-color: bisque;
+  
 }
 .imgColum{
   display : flex;
   padding : 5px;
-  background-color : red;
+  width: 48%;
+  flex-direction: column;
+}
+
+.img{
+  width: 100%;
+  height: auto;
+  padding: 4px;
+
+  display: flex;
+  justify-content: center;
 }
