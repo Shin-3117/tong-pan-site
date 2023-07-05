@@ -67,8 +67,8 @@
 
         >.tableBody{
             width: 100%;
-            display: grid;
-            grid-template-columns: 6fr 3fr 1fr;
+            display: flex;
+            flex-direction: column;
 
             >.inputContext{
            
