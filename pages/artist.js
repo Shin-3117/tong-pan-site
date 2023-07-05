@@ -12,8 +12,8 @@ export default function Artist(){
     }
 
     const handleRemoveForm = (index) => {
-        const values = [...TableForm].splice(index, 1);
-        console.log(index);
+        const values = [...TableForm];
+        const removed = values.splice(index,1);
         setTableForm(values);
     }
 
